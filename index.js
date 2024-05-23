@@ -75,7 +75,7 @@ const convertWithOptions = (document, format, filter, options, callback) => {
     });
 };
 
-const convert = (document, format, filter, options, callback) => {
+const convert = (document, format, filter, callback, options) => {
     return convertWithOptions(document, format, filter, options, callback)
 };
 
